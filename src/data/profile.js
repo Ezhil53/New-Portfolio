@@ -8,7 +8,7 @@ export const profile = {
   github: 'https://github.com/Ezhil53',
   linkedin: 'https://www.linkedin.com/in/ezhilarasuk',
   resume: '/Ezhilarasu_Resume.pdf',
-  photo: '/public/assets/me.webp', // e.g. '/photo.webp' (put the file in /public). Empty shows a placeholder.
+  photo: '/assets/me.webp', // e.g. '/photo.webp' (put the file in /public). Empty shows a placeholder.
   intro:
     'I build responsive web applications and REST APIs with React, Node.js, Express and MongoDB, from e-commerce platforms to educational products. Currently a Full Stack Developer at Bigbay Cinema Factory in Chennai.',
   availability: 'Open to full-time roles and freelance work',

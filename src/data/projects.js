@@ -53,7 +53,7 @@ export const sampleProjects = [
     tech: ["React.js", "ContextAPI", "JWT", "MongoDB"],
     live: "https://mirakleproducts.com/",
     repo: "", // [PROJECT REPOSITORY URL]
-    image: "/public/assets/projects/mirakle.png",
+    image: "/assets/projects/mirakle.png",
     isPlaceholder: true,
   },
     {
@@ -66,7 +66,7 @@ export const sampleProjects = [
     tech: ["React.js", "TailwindCSS", "Shadcn", "Framer Motion "],
     live: "https://www.vishnuads.com/",
     repo: "", // [PROJECT REPOSITORY URL]
-    image: "/public/assets/projects/va.png", 
+    image: "/assets/projects/va.png", 
     isPlaceholder: true,
   },
 ];
