@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Design tokens. Change --color-accent to re-theme the whole site. */
+@theme {
+  --color-bg: #0a0a0a;
+  --color-surface: #111111;
+  --color-line: #262626;
+  --color-fg: #fafafa;
+  --color-muted: #a3a3a3;
+  --color-accent: #c6f432;
+
+  --font-display: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #0a0a0a;
+}
