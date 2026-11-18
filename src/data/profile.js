@@ -3,7 +3,7 @@ export const profile = {
   name: 'Ezhilarasu',
   role: 'Full Stack Developer',
   location: 'Chennai, Tamil Nadu',
-  email: 'mahiezhil53@gmail.com',
+  email: 'ezhilarasu.kamaraj@gmail.com',
   phone: '+91 97519 21853',
   github: 'https://github.com/Ezhil53',
   linkedin: 'https://www.linkedin.com/in/ezhilarasuk',
